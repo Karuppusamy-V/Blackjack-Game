@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1{
+    color:goldenrod;
+}
+P{
+    color:white;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    font-size:25px;
+}
+.container{
+    flex-direction: column;
+    display: flex;
+    gap:20px;
+    height: 100%;
+    width:100%;
+    background-color: rgb(6, 95, 6);
+    align-items: center;
+    justify-content: center;
+}
+#ques{
+    font-style: italic;
+}
+button{
+    height:40px;
+    width:150px;
+    color: rgb(6, 95, 6);
+    background-color: goldenrod;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    padding: 5px;
+}
